@@ -50,15 +50,21 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #container{
-    
+    min-width: 800px;
 }
 #inner{
     margin:0 auto;
     width:800px;
     padding-bottom: 40px;
+    padding:0 20px;
+}
+
+#inner img{
+    float:right;
 }
 .content{
-
+    float:left;
+    padding-bottom:40px;
 }
 #header{
     text-align: center;
@@ -74,6 +80,7 @@ h1, h2, h3, h4, h5, h6{
 
 }
 #footer_wrap{
+    clear:both;
     width:100%;
     background: #ddd;
     border: 1px solid #777;
@@ -82,7 +89,7 @@ h1, h2, h3, h4, h5, h6{
     color: #777;
 }
 .content ul{
-    padding:10px 0 0 20px;
+    padding:20px 0 0 20px;
 }
 a {
     margin:0;
