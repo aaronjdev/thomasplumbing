@@ -37,7 +37,13 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
     letter-spacing: -1px;
 }
-
+h3{
+    font-size: 18px;
+}
+#nav{
+    clear:both;
+    padding-top:10px;
+}
 #nav ul  {
     text-align: center;
 }
@@ -61,15 +67,30 @@ h1, h2, h3, h4, h5, h6{
 
 #inner img{
     float:right;
+    clear: right;
+    padding: 0 0 15px;
 }
 .content{
     float:left;
     padding-bottom:40px;
 }
-#header{
-    text-align: center;
-    padding-bottom: 30px;
+.right{
+    float:right;
 }
+.left{
+    float:left;
+}
+#header{
+    width:500px;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 18px;
+}
+#header h3{
+    color:#777;
+    margin:0 20px;
+}
+
 #footer{
     font-size: 12px;
     text-align: left;
@@ -152,7 +173,7 @@ input, select {
 h1 {
 	color: #777;	
 	font-size: 32px;
-    margin: 15px 0 20px;
+    margin: 0;
 }
 h2 {
     font-size: 24px
