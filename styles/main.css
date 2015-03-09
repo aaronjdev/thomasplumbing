@@ -56,13 +56,11 @@ h3{
 }
 
 #container{
-    min-width: 800px;
+    width: 100%;
 }
 #inner{
     margin:0 auto;
-    width:800px;
-    padding-bottom: 40px;
-    padding:0 20px;
+    padding:0 10px 40px;
 }
 
 #inner img{
@@ -71,7 +69,6 @@ h3{
     padding: 0 0 15px;
 }
 .content{
-    float:left;
     padding-bottom:40px;
 }
 .right{
@@ -94,17 +91,13 @@ h3{
 #footer{
     font-size: 12px;
     text-align: left;
-    max-width: 800px;
     margin:0 auto;
-    padding:20px 0;
-
-
+    padding:20px 20px;
 }
 #footer_wrap{
     clear:both;
-    width:100%;
     background: #ddd;
-    border: 1px solid #777;
+    border-top: 1px solid #777;
 }
 #footer p {
     color: #777;
@@ -125,49 +118,6 @@ a:visited{
 }
 a:hover{
     color:#444;
-}
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000; 
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;   
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
 }
 
 h1 {
